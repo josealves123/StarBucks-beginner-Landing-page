@@ -1,0 +1,363 @@
+body{
+    color: #32312d;
+    font-weight: 400;
+    font-size: 1.4rem;
+    font-family: 'SoDo Sans', Helvetica Neue, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    letter-spacing: -.01em;
+    overflow: auto !important;
+}
+
+a.menu{
+    text-decoration: none;
+    padding: 10px;
+    position: relative;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    font-weight: 100px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-weight: bold;
+}
+
+a:hover {
+    color: rgb(7, 146, 0);
+}
+
+img.local {
+    height: 30px;
+    display: flex;
+    position: relative;
+    margin-top: 10px;
+    right: 10%;
+}
+
+div.menu-right {
+    position: absolute;
+    display: flex;
+    left: 85%;
+    top: 2%; 
+    margin-left: 85px;
+    margin-top: 10px;
+}
+
+div.menu-left {
+    position: relative;
+    display: flex; 
+    margin-right: 85px;
+    margin-top: 30px;
+    
+}
+
+img.logo {
+    height: 150px;
+    display: flex;
+    position: relative;
+    margin-top: -40px;
+    margin-left: -30px;
+
+}
+
+img.simble {
+    height: 50px;
+    display: flex;
+    position: absolute;
+    right: 120%;
+}
+
+img.banner{
+    height: 500px;
+    border-spacing: 0cm;
+    margin-left: none;
+    margin-top: -30px;
+    margin-left: 10%;
+    position: fixed;
+    border-radius: 5px;
+}
+a.card{
+    display: flex;
+    position: absolute;
+    right: 15%;
+    text-decoration: none;
+    color: green;
+    font-size: 20px;
+    top: 250px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+p.title-card{
+    display: flex;
+    position: absolute;
+    right: 17%;
+    text-decoration: none;
+    color: rgb(46, 46, 46);
+    font-size: 40px;
+    top: 120px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+h2.subtitle{
+    display: flex;
+    position: absolute;
+    right: 15%;
+    text-decoration: none;
+    color: rgb(40, 40, 40);
+    font-size: 15px;
+    top: 320px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+a.table{
+    display: flex;
+    position: absolute;
+    right: 25%;
+    text-decoration: none;
+    color: green;
+    font-size: 18px;
+    top: 420px;
+    text-align: center;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+a.comidas{
+    display: flex;
+    position: absolute;
+    right: 13%;
+    text-decoration: none;
+    color: green;
+    font-size: 18px;
+    top: 420px;
+    text-align: center;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+a.alerg{
+    display: flex;
+    position: absolute;
+    right: 20%;
+    text-decoration: none;
+    color: green;
+    font-size: 18px;
+    top: 510px;
+    text-align: center;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+h1.sbr{
+    display: flex;
+    position: absolute;
+    text-decoration: none;
+    text-align: center;
+    font-weight: lighter;
+    top: 670px;
+    font-size: 18px;
+    right: 88%;
+    font-weight: lighter;
+    color: black;
+}
+
+a.sbr-1{
+    display: flex;
+    position: absolute;
+    text-decoration: none;
+    text-align: center;
+    font-weight: lighter;
+    top: 740px;
+    font-size: 16px;
+    right: 87.5%;
+    font-weight: lighter;
+    color: rgb(160, 160, 160);
+}
+
+
+a.sbr-3{
+    display: flex;
+    position: absolute;
+    text-decoration: none;
+    text-align: center;
+    font-weight: lighter;
+    top: 820px;
+    font-size: 16px;
+    right: 86.5%;
+    font-weight: lighter;
+    color: rgb(160, 160, 160);
+}
+
+a.sbr-4{
+    display: flex;
+    position: absolute;
+    text-decoration: none;
+    text-align: center;
+    font-weight: lighter;
+    top: 900px;
+    font-size: 16px;
+    right: 86.5%;
+    font-weight: lighter;
+    color: rgb(160, 160, 160);
+}
+a.sbr-1:hover{
+    color: black ;
+}
+a.sbr-3:hover{
+    color: black ;
+}
+a.sbr-4:hover{
+    color: black ;
+}
+
+h1.car{
+    display: flex;
+    position: absolute;
+    text-decoration: none;
+    text-align: center;
+    font-weight: lighter;
+    top: 670px;
+    font-size: 18px;
+    right: 75%;
+    font-weight: lighter;
+    color: black;
+}
+
+a.car-1{
+    display: flex;
+    position: absolute;
+    text-decoration: none;
+    text-align: center;
+    font-weight: lighter;
+    top: 740px;
+    font-size: 16px;
+    right: 73%;
+    font-weight: lighter;
+    color: rgb(160, 160, 160);
+}
+
+a.car-1:hover{
+    color: black ;
+}
+
+h1.imp{
+    display: flex;
+    position: absolute;
+    text-decoration: none;
+    text-align: center;
+    font-weight: lighter;
+    top: 670px;
+    font-size: 18px;
+    right: 60%;
+    font-weight: lighter;
+    color: black;
+}
+
+a.imp-1{
+    display: flex;
+    position: absolute;
+    text-decoration: none;
+    text-align: center;
+    font-weight: lighter;
+    top: 740px;
+    font-size: 16px;
+    right: 61%;
+    font-weight: lighter;
+    color: rgb(160, 160, 160);
+}
+
+a.imp-1:hover{
+    color: black;
+}
+
+a.imp-2{
+    display: flex;
+    position: absolute;
+    text-decoration: none;
+    text-align: center;
+    font-weight: lighter;
+    top: 810px;
+    font-size: 16px;
+    right: 60.5%;
+    font-weight: lighter;
+    color: rgb(160, 160, 160);
+}
+
+a.imp-2:hover{
+    color: black;
+}
+
+a.imp-3{
+    display: flex;
+    position: absolute;
+    text-decoration: none;
+    text-align: center;
+    font-weight: lighter;
+    top: 900px;
+    font-size: 16px;
+    right: 59.5%;
+    font-weight: lighter;
+    color: rgb(160, 160, 160);
+}
+
+a.imp-3:hover{
+    color: black;
+}
+
+h1.star{
+    display: flex;
+    position: absolute;
+    text-decoration: none;
+    text-align: center;
+    font-weight: lighter;
+    top: 670px;
+    font-size: 18px;
+    right:43%;
+    font-weight: lighter;
+    color: black;
+}
+
+a.star-1{
+    display: flex;
+    position: absolute;
+    text-decoration: none;
+    text-align: center;
+    font-weight: lighter;
+    top: 740px;
+    font-size: 16px;
+    right: 43.5%;
+    font-weight: lighter;
+    color: rgb(160, 160, 160);
+}
+
+a.star-1:hover{
+    color: black;
+}
+
+a.star-2{
+    display: flex;
+    position: absolute;
+    text-decoration: none;
+    text-align: center;
+    font-weight: lighter;
+    top: 820px;
+    font-size: 16px;
+    right: 43.5%;
+    font-weight: lighter;
+    color: rgb(160, 160, 160);
+}
+   
+a.star-2:hover{
+    color: black;
+}
+
+div.last-image{
+    height: 50px;
+    display: flex;
+    position: absolute;
+    top: 680px;
+    right: 30%;
+}
+
